@@ -45,7 +45,6 @@ setInterval(async () => {
 }, 1000 * 60 * 60); // Update every 1 hour (1000ms * 60s * 60m)
 
 async function fetchWeatherData(city) {
-    const apiKey = 'aa6573ee2305469eb4c193906241304';
     const url = `http://api.weatherapi.com/v1/forecast.json?key=aa6573ee2305469eb4c193906241304&q=${city}&days=7`;
 
     try {
