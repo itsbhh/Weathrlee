@@ -99,7 +99,7 @@ function showWeatherData(data, cityName) {
         </div>
         <div class="weather-item">
             <div>Pressure</div>
-            <div>${pressure_mb} mb</div>
+            <div>${pressure_mb}mb</div>
         </div>
         <div class="weather-item">
             <div>Wind</div>
